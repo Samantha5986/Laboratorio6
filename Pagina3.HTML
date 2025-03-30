@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .justify-text { text-align: justify; }
+        .center-title { text-align: center; }
+    </style>
+</head>
+<body>
+
+<!-- Menú de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Friends</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">DC Comics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pagina3.html">Harry Potter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido de Harry Potter -->
+<div class="container mt-5">
+    <h1 class="center-title">Harry Potter</h1>
+    <p class="justify-text">Harry Potter es una saga de novelas de fantasía escrita por la autora británica J.K. Rowling. La historia sigue las aventuras de un joven mago, Harry Potter, y sus amigos Hermione Granger y Ron Weasley, quienes estudian en el Colegio Hogwarts de Magia y Hechicería.</p>
+    <p class="justify-text">La trama principal gira en torno a la lucha de Harry contra Lord Voldemort, un mago oscuro que busca la inmortalidad y la supremacía sobre los magos y muggles. La serie abarca siete libros, cada uno correspondiente a un año escolar en Hogwarts.</p>
+    <p class="justify-text">El universo de Harry Potter ha sido adaptado al cine con gran éxito, generando una franquicia multimillonaria que incluye parques temáticos, videojuegos y una obra de teatro: "Harry Potter y el legado maldito".</p>
+    <p class="justify-text">El mundo mágico también incluye elementos icónicos como la plataforma 9¾, el Callejón Diagon, el castillo de Hogwarts, las casas Gryffindor, Hufflepuff, Ravenclaw y Slytherin, así como criaturas mágicas como el hipogrifo, los dementores y los elfos domésticos.</p>
+    <p class="justify-text">La saga ha sido aclamada por su compleja trama, personajes memorables y temas como la amistad, el amor, la muerte y la lucha entre el bien y el mal. Su impacto cultural ha sido duradero, con millones de fans en todo el mundo.</p>
+
+    <!-- Imágenes -->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="Cuarteto.jpg" class="img-fluid" alt="Harry, Ron y Hermione">
+            <p class="text-center mt-2">Harry, Ron, Draco y Hermione, los protagonistas principales.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="Castillo.jpg" class="img-fluid" alt="Hogwarts">
+            <p class="text-center mt-2">El castillo de Hogwarts, la escuela de magia.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="Voldi.jpg" class="img-fluid" alt="Lord Voldemort">
+            <p class="text-center mt-2">Lord Voldemort, el villano principal.</p>
+        </div>
+    </div>
+
+    <!-- Componentes Bootstrap -->
+    <div class="alert alert-success mt-4" role="alert">
+        ¡Revive la magia de Harry Potter viendo las películas o leyendo los libros nuevamente!
+    </div>
+    <button class="btn btn-primary">Explorar más</button>
+
+    <div class="card mt-5">
+        <div class="card-body">
+            <h5 class="card-title">Curiosidad</h5>
+            <p class="card-text justify-text">¿Sabías que los libros de Harry Potter han sido traducidos a más de 80 idiomas, convirtiéndose en una de las sagas literarias más traducidas del mundo?</p>
+            <a href="#" class="btn btn-secondary">Descubre más curiosidades</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

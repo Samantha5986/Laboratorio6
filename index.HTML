@@ -1,38 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Deadpool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .justify-text { text-align: justify; }
+        .center-title { text-align: center; }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Laboratorio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+<!-- Menú de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="nav-link active" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Pagina 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pagina 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pagina 3</a>
-              </li>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Friends</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">DC Comics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Harry Potter</a>
+                </li>
             </ul>
-            <span class="navbar-text">
-              Buscar
-            </span>
-          </div>
         </div>
-      </nav>
-          <center>
-            <img src="Deadpool.jpg" class="d-block w-70" alt="img">
-          </center>
+    </div>
+</nav>
+
+<!-- Contenido de Deadpool -->
+<div class="container mt-5">
+    <h1 class="center-title">Deadpool</h1>
+    <p class="justify-text">Deadpool es un antihéroe ficticio que aparece en los cómics publicados por Marvel Comics. Creado por el escritor Fabian Nicieza y el dibujante Rob Liefeld, hizo su primera aparición en <i>The New Mutants</i> #98 en 1991.</p>
+    <p class="justify-text">El personaje, cuyo nombre real es Wade Wilson, es conocido por su humor irreverente, su capacidad para romper la cuarta pared y su factor de curación acelerada, similar al de Wolverine. Su traje rojo y negro es icónico, y sus katanas y pistolas son parte de su arsenal distintivo.</p>
+    <p class="justify-text">Deadpool ha alcanzado gran popularidad gracias a las películas protagonizadas por Ryan Reynolds, las cuales capturan perfectamente su humor sarcástico y su naturaleza violenta pero cómica. Las películas combinan acción, comedia y referencias a la cultura pop.</p>
+    <p class="justify-text">El personaje es famoso por su capacidad de autorreferencia y su constante rompimiento de la cuarta pared, lo que le permite interactuar directamente con la audiencia y hacer comentarios meta sobre la trama y la industria del entretenimiento.</p>
+    <p class="justify-text">A pesar de su naturaleza cómica, Deadpool también tiene un trasfondo trágico. Wade Wilson sufre de cáncer terminal y, tras someterse a un experimento fallido del programa Arma X, adquiere sus habilidades, pero queda desfigurado y mentalmente inestable.</p>
+
+    <!-- Carrusel de Imágenes -->
+    <div id="carouselDeadpool" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Deadpool.jpg" class="d-block w-100" alt="Deadpool acción">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Deadpool.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Deadpool2.jpg" class="d-block w-100" alt="Deadpool película">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Ryan Reynolds como Deadpool en la película.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Deadpool3.jpg" class="d-block w-100" alt="Deadpool cómic">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Deadpool Y Wolverine.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDeadpool" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDeadpool" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Componentes Bootstrap -->
+    <div class="alert alert-danger mt-4" role="alert">
+        ¡Descubre las últimas aventuras de Deadpool en cómics y películas!
+    </div>
+    <button class="btn btn-primary">Explorar más</button>
+
+    <div class="card mt-5">
+        <div class="card-body">
+            <h5 class="card-title">Curiosidad</h5>
+            <p class="card-text justify-text">¿Sabías que Deadpool es consciente de que es un personaje ficticio? Esta habilidad única le permite interactuar con los lectores y comentar sobre la industria del cómic.</p>
+            <a href="#" class="btn btn-secondary">Descubre más curiosidades</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

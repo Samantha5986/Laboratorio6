@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Comics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .justify-text { text-align: justify; }
+        .center-title { text-align: center; }
+    </style>
+</head>
+<body>
+
+<!-- Menú de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Friends</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pagina2.html">DC Comics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Harry Potter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido de DC Comics -->
+<div class="container mt-5">
+    <h1 class="center-title">DC Comics</h1>
+    <p class="justify-text">DC Comics es una de las principales editoriales de cómics en el mundo. Fundada en 1934 bajo el nombre de National Allied Publications, más tarde adoptó el nombre DC Comics en honor a su serie insignia: Detective Comics.</p>
+    <p class="justify-text">El universo de DC incluye personajes icónicos como Superman, Batman, Wonder Woman, The Flash, Aquaman y Green Lantern. Estas figuras han trascendido las páginas de los cómics para convertirse en íconos culturales globales.</p>
+    <p class="justify-text">DC también es conocida por sus equipos de superhéroes como la Liga de la Justicia, los Jóvenes Titanes y la Sociedad de la Justicia de América. Además, DC ha incursionado en el cine y la televisión con producciones exitosas como la trilogía de El Caballero de la Noche, las películas del Universo Extendido de DC (DCEU) y series como Arrow, The Flash y Titans.</p>
+    <p class="justify-text">A lo largo de las décadas, DC ha abordado temas complejos como la justicia, la corrupción y la moralidad, agregando profundidad a sus historias. Su capacidad para reinventar personajes y tramas ha mantenido a la editorial relevante durante generaciones.</p>
+    <p class="justify-text">El multiverso de DC es una parte esencial de su mitología, introduciendo realidades paralelas donde los héroes existen en diferentes versiones o roles alternativos, como en los cómics de "Flashpoint" o "Crisis en Tierras Infinitas".</p>
+
+    <!-- Imágenes -->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="Flash.jpg" class="img-fluid" alt="Flash">
+            <p class="text-center mt-2">Flash, uno de los héroes más icónicos de DC.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="Superman.jpg" class="img-fluid" alt="Superman">
+            <p class="text-center mt-2">Superman, símbolo de esperanza y justicia.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="Diana.jpg" class="img-fluid" alt="Wonder Woman">
+            <p class="text-center mt-2">Wonder Woman, la princesa amazona.</p>
+        </div>
+    </div>
+
+    <!-- Componentes Bootstrap -->
+    <div class="alert alert-warning mt-4" role="alert">
+        ¡Descubre las últimas aventuras de los héroes de DC en cómics, series y películas!
+    </div>
+    <button class="btn btn-primary">Explorar más</button>
+
+    <div class="card mt-5">
+        <div class="card-body">
+            <h5 class="card-title">Curiosidad</h5>
+            <p class="card-text justify-text">¿Sabías que Batman tiene un plan para derrotar a cada miembro de la Liga de la Justicia en caso de que se vuelvan malvados? Este hecho aparece en la historia "JLA: Torre de Babel".</p>
+            <a href="#" class="btn btn-secondary">Descubre más curiosidades</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
